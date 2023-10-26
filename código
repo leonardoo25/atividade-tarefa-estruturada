@@ -44,7 +44,6 @@ def removertarefa():
 
 def sair_():
     print("Saindo...")
-    return True
 
 while True:
     print("O que deseja? ")
