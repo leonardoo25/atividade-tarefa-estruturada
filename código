@@ -50,3 +50,11 @@ while True:
             
     else:
         print("Essa opção não existe.")
+
+    print("Deseja Sair?")
+    print("1 = Sim")
+    print("2 = Não")
+    sair = input("")
+    if sair == "1":
+        print("Saindo...")
+        break
