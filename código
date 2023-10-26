@@ -6,12 +6,6 @@ tarefas = {
 
 def listartarefa():
     print(tarefas)
-    print("Deseja Sair?")
-    print("1 = Sim")
-    print("2 = Não")
-    sair = input("")
-    if sair == "1":
-        print("Saindo...")
 
 def adicionartarefa():
     print(tarefas)
@@ -19,12 +13,6 @@ def adicionartarefa():
     tarefas[f"tarefa {len(tarefas) + 1}"] = tarefa
     print(f"A tarefa {tarefa} foi adicionada.")
     print(tarefas)
-    print("Deseja Sair?")
-    print("1 = Sim")
-    print("2 = Não")
-    sair = input("")
-    if sair == "1":
-        print("Saindo...")
 
 def removertarefa():
     print(tarefas)
@@ -35,12 +23,6 @@ def removertarefa():
         print(tarefas)
     else:
         print(f"{removertarefa} não existe.")
-    print("Deseja Sair?")
-    print("1 = Sim")
-    print("2 = Não")
-    sair = input("")
-    if sair == "1":
-        print("Saindo...")
 
 def sair_():
     print("Saindo...")
