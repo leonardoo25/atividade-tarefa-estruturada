@@ -65,6 +65,7 @@ while True:
     
     elif escolha == "4":
         sair_()
+        break
             
     else:
         print("Essa opção não existe.")
